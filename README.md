@@ -65,6 +65,7 @@ Otimizar o processo de planejamento das sprints através de uma abordagem estrut
 
 ### Sprint Planning Fase 2 - Desenvolvimento e Implementação
 **Duração:**
+
 **Participantes:** Dev Team, Product Owner e Scrum Master  
 **Atividades:**
 - Desdobramento das tarefas técnicas
