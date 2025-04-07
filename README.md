@@ -47,7 +47,7 @@ A solução proposta é voltada para empresas que necessitam de um sistema **con
 Otimizar o processo de planejamento das sprints através de uma abordagem estruturada em duas etapas claramente definidas, garantindo alinhamento técnico e eficiência na execução.
 
 ### Sprint Planning Fase 1 - Arquitetura e Planejamento
-**Duração:** 03\04\2025 - 30\05\2025
+**Duração:** 03/04/2025 - 30/05/2025
 **Participantes:** Dev Team, Product Owner e Scrum Master  
 **Entregáveis:**
 - Definição da arquitetura
