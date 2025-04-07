@@ -48,6 +48,7 @@ Otimizar o processo de planejamento das sprints através de uma abordagem estrut
 
 ### Sprint Planning Fase 1 - Arquitetura e Planejamento
 **Duração:** 03/04/2025 - 30/05/2025
+
 **Participantes:** Dev Team, Product Owner e Scrum Master  
 **Entregáveis:**
 - Definição da arquitetura
