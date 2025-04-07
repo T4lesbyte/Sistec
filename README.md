@@ -1,160 +1,97 @@
-Equipe:
+# A Equipe
 
-Júlio Vasconcelos - Product Owner
+**Product Owner**  
+Júlio Vasconcelos  
 
-Thales Cotrim - Scrum Master
+**Scrum Master**  
+Thales Cotrim  
 
-Samuel Parra - Dev Team
+**Dev Team**  
+- Samuel Parra  
+- João Corsino  
+- Jaqueline Barbosa  
+- Lucas Alves
 
-João Corsino - Dev Team
+# O Projeto
+## Sistema Inteligente de Gestão de Chamados de Suporte
 
-Jaqueline Barbosa - Dev Team
+Este projeto tem como objetivo desenvolver uma **plataforma integrada e automatizada** para gerenciamento de chamados de suporte técnico, combinando **controle de acesso, automação de fluxos de trabalho e inteligência artificial** para:
 
-Lucas Alves - Dev Team
+- Agilizar a resolução de problemas
+- Reduzir custos operacionais
+- Melhorar a experiência do usuário
 
+## Visão Geral
 
-# 1. Gestão de Usuários e Perfis de Acesso
+A solução proposta é voltada para empresas que necessitam de um sistema **confiável, escalável e eficiente** para lidar com demandas de suporte interno ou externo. Com uma arquitetura modular, o sistema oferece:
 
-## 1.1 Cadastro de Usuários
+### Gestão de Acessos e Processos
+- **Controle de usuários** com 4 níveis de acesso (Admin, Gerente, Analista e Usuário)
+- **Autenticação segura** com recuperação de senha
+- **Formulário inteligente** de chamados com priorização automática
 
-- Registro e manutenção dos perfis de usuário, abrangendo os seguintes níveis:
-  - **Admin**
-  - **Gerente de Suporte**
-  - **Usuário**
-  - **Analista de Suporte**
-- Implementação de mecanismos de autenticação (login/senha) e recuperação de senha.
+### Automação e Inteligência
+- **Triagem por IA** para direcionamento inteligente
+- **Agentes especializados** para respostas automáticas
+- **Fluxo adaptativo** (automatizado ou humano)
 
-## 1.2 Controle de Acesso
+### Monitoramento e Análise
+- **Dashboards interativos** em tempo real
+- **Relatórios estratégicos** de desempenho e SLA
+- **Filtros avançados** para gestão eficiente
 
-- **Admin:** Acesso total ao sistema, incluindo gerenciamento de todos os usuários, configurações globais e auditoria das ações realizadas.
-- **Gerente de Suporte:** Responsável pela auditoria do sistema e pelo gerenciamento de relatórios, como indicadores de SLA e demais métricas de desempenho dos chamados.
-- **Analista de Suporte:** Tem acesso para gerenciar, atender e resolver os chamados designados, atualizando o status e registrando as soluções implementadas.
-- **Usuário:** Permite a criação de novos chamados de suporte e o acompanhamento dos chamados abertos por ele.
+# O Planejamento
+## Sprint Planning em Duas Fases
 
----
+### Objetivo
+Otimizar o processo de planejamento das sprints através de uma abordagem estruturada em duas etapas claramente definidas, garantindo alinhamento técnico e eficiência na execução.
 
-# 2. Registro e Cadastro de Chamados
+### Fase 1 - Arquitetura e Planejamento
+**Duração:** 00\00\0000
+**Participantes:** Dev Team, Product Owner e Scrum Master  
+**Entregáveis:**
+- Definição da arquitetura
+- Diagrama de Caso de uso, Classe, Sequência e Implementação
+- Modelagem de Banco de Dados
+- Arquitetura da informação e fluxos de usuário
+- Wireframes e prototipos de média fidelidade
+- Prototipo de alta fidelidade
 
-## 2.1 Formulário de Criação de Chamados
+**Benefícios:**
+- Alinhamento prévio sobre soluções técnicas
+- Identificação antecipada de desafios arquiteturais
+- Melhor estimativa de esforço para o time de desenvolvimento
 
-- **Campos obrigatórios:**
-  - **Título:** Campo para identificar resumidamente o problema.
-  - **Descrição Detalhada:** Espaço destinado para que o usuário descreva de forma completa e clara o problema enfrentado.
-  - **Categoria:**
-    - O campo não será preenchido manualmente pelo usuário.
-    - As categorias serão pré-definidas pelo Admin, permitindo a personalização do sistema de acordo com as necessidades de cada empresa.
-    - O usuário deverá selecionar uma opção da lista disponibilizada.
-  - **Impacto e Alcance:**
-    - Esses campos serão utilizados para definir a prioridade do chamado por meio de uma matriz.
-    - **Impacto:** Opções pré-definidas (Baixo, Médio, Alto, Crítico).
-    - **Alcance:** Opções que indicam a abrangência do problema: "Somente a mim", "Meu setor", "Vários setores" ou "A empresa inteira".
-    - A combinação escolhida alimentará a matriz Impacto X Alcance, que determinará automaticamente o nível de prioridade do chamado.
-  - **Anexar Arquivos:** Permite que o usuário envie documentos, imagens ou outros arquivos que possam auxiliar na análise e resolução do problema.
-  - **Contato:**
-    - Embora os dados de contato possam ser carregados a partir das informações do usuário, esse campo será mantido para que o próprio usuário informe a melhor forma de ser contatado (telefone pessoal, corporativo ou ramal), considerando situações onde possa haver problemas de acesso a outros sistemas.
+### Fase 2 - Desenvolvimento e Implementação
+**Duração:** 00\00\0000
+**Participantes:** Dev Team, Product Owner e Scrum Master  
+**Atividades:**
+- Desdobramento das tarefas técnicas
+- Implementação das soluções
+- Validações contínuas
+- Daily meetings para acompanhamento
 
-## 2.2 Validação e Consistência dos Dados
+**Benefícios:**
+- Foco exclusivo na execução após planejamento consolidado
+- Maior produtividade com requisitos técnicos claros
+- Redução de retrabalho por decisões arquiteturais tardias
 
-- O sistema deverá validar o preenchimento de todos os campos obrigatórios.
-- A matriz Impacto X Alcance deverá processar as escolhas dos campos "Impacto" e "Alcance" para atribuir automaticamente um nível de prioridade ao chamado, sem que o usuário precise indicar essa prioridade diretamente.
+### Fluxo de Trabalho Integrado
+1. **Pré-Sprint:** Product Owner prioriza backlog
+2. **Sprint Planning Fase 1:** Time define "como" construir
+3. **Sprint Planning Fase 2:** Time executa "o que" foi planejado
+4. **Transição:** Revisão técnica diária entre fases
 
----
+*"Esta abordagem permite dedicar a atenção necessária tanto ao planejamento estratégico quanto à execução ágil, sem sobrecarregar o time com decisões técnicas durante o desenvolvimento."*
 
-# 3. Fluxo de Encaminhamento e Gestão do Chamado
+# 🔍 Navegação
 
-## 3.1 Aprovação de Chamados
+## 📌 Documentação Essencial
+- [Ciclo de Vida do Chamado](https://tar-stay-ec9.notion.site/Ciclo-de-Vida-de-um-Chamado-1c25872c0a9281bcb642ee620d554c95?pvs=)  
+- [Requisitos Funcionais](https://tar-stay-ec9.notion.site/Levantamento-de-Requisitos-Funcionais-PIM-III-1c25872c0a9281399f40f5e513e43048?pvs=4)
+- [Casos de Uso](https://tar-stay-ec9.notion.site/Diagrama-de-Casos-de-Uso-1c25872c0a9281978842fd6060bd9144?pvs=4)
 
-- Chamados criados por usuários devem ser submetidos à aprovação do gestor responsável.
-- Disponibilizar uma tela ou painel para que o Gestor visualize os chamados pendentes de aprovação, com as seguintes opções:
-  - Aprovar o chamado para que siga para o atendimento.
-  - Rejeitar o chamado, informando o motivo, evitando assim a abertura de chamados desnecessários.
+## 🚀 Gestão Ágil
+- [Product Backlog](https://tar-stay-ec9.notion.site/Product-Backlog-1c25872c0a9281afa45cee6072936a2c?pvs=4)
+- [Sprint Planning](https://github.com/jotaCorsino/Sistec/blob/main/sprint-planning.md)
 
-## 3.2 Encaminhamento Automático e Triagem por IA
-
-- **Encaminhamento Pós-Aprovação:** Após a aprovação do chamado, o sistema encaminhará o registro para a IA de triagem.
-- **Análise pela IA:** A IA de triagem analisará os seguintes parâmetros para determinar o melhor encaminhamento:
-  - Categoria do problema.
-  - Complexidade do problema.
-  - Histórico de chamados do usuário.
-- **Direcionamento:** Com base nessa análise, a IA poderá:
-  - Direcionar o chamado para um agente de IA especializado, que fornecerá respostas automáticas para problemas conhecidos.
-  - Ou encaminhar o chamado para um Analista de Suporte.
-
-## 3.3 Intervenção do Analista de Suporte
-
-- **Opções do Analista:**
-  - Tratar o chamado e marcá-lo como **encerrado** caso o problema seja resolvido.
-  - Escalar o chamado para um analista mais qualificado se a complexidade do problema for maior do que a capacidade de resolução do analista inicialmente designado.
-
-## 3.4 Estado do Chamado
-
-- **Status do Chamado:** O chamado deverá transitar pelos seguintes status no sistema:
-  - **Aberto:** Chamado recém-criado.
-  - **Aprovado:** Chamado que passou pela análise inicial e foi aprovado para encaminhamento.
-  - **Aguardando Resposta:** Status exclusivo para chamados encaminhados para a IA de respostas a problemas conhecidos.
-  - **Com Analista:** Chamado em tratamento por um Analista de Suporte.
-  - **Resolvido:** Chamado cujo problema foi solucionado.
-  - **Fechado:** Chamado encerrado após confirmação da resolução.
-- **Reabertura:** O sistema deverá permitir a reabertura de um chamado caso o problema persista.
-- **Reincidência:** Em casos de reincidência, um novo chamado deverá ser aberto para manter um histórico detalhado e preciso.
-
----
-
-# 4. IA de Triagem de Chamados
-
-## 4.1 Análise e Classificação
-
-- A IA de triagem analisará a descrição detalhada fornecida pelo usuário.
-- Utilizará critérios objetivos para classificar o chamado com base na seguinte hierarquia:
-  1. **Categoria:** Selecionada a partir das opções pré-definidas pelo Admin.
-  2. **Índice da Matriz Impacto X Alcance:** Calculado com base nas escolhas do usuário nos campos de Impacto e Alcance.
-  3. **Complexidade:** Avaliada a partir da descrição e demais parâmetros associados ao chamado.
-  4. **Histórico do Usuário:** Considera a quantidade e natureza dos chamados anteriores.
-
-## 4.2 Direcionamento do Chamado
-
-- Com base na análise dos parâmetros acima, a IA de triagem definirá o encaminhamento do chamado, adotando um dos dois caminhos:
-  - Encaminhar para um dos **Agentes IA de Resolução**, se o problema se enquadrar como conhecido e possuir uma solução previamente treinada.
-  - Encaminhar para um **Analista de Suporte**, caso o problema exija intervenção humana ou não corresponda aos critérios para resolução automática.
-
----
-
-# 5. Agentes IA de Resolução
-
-## 5.1 Especialização dos Agentes
-
-- O sistema poderá contar com diversos Agentes IA especializados, cada um treinado para tratar tipos específicos de problemas, por exemplo:
-  - Agente especializado em **Microsoft Office**.
-  - Agente para questões relacionadas a **Sistema Operacional**.
-  - Agente treinado para problemas envolvendo **SAP**.
-  - Agente especializado em uma **linguagem de programação** utilizada internamente pela empresa.
-
-## 5.2 Processo de Resolução
-
-- Cada Agente IA de Resolução receberá os dados do chamado e, com base nas informações fornecidas, deverá:
-  - Gerar uma resposta em texto com a resolução proposta para o problema.
-  - Solicitar ao usuário uma confirmação sobre a eficácia da solução aplicada.
-
----
-
-# 6. Acompanhamento e Monitoramento de Chamados
-
-## 6.1 Dashboard do Usuário
-
-- Visualização em tempo real do status dos chamados (Aberto, Aprovado, Aguardando Resposta, Com Analista, Resolvido, Fechado).
-- Histórico completo de chamados, contendo detalhes das ações realizadas e prazos cumpridos.
-
-## 6.2 Painel para Gestores e Admin
-
-- Geração de relatórios e métricas sobre:
-  - Volume de chamados.
-  - Tempo de resolução.
-  - Índices de aprovação/rejeição.
-  - Desempenho dos Analistas de Suporte.
-
- ## 📌 Glossário
-
-- [Levantamento de Requisitos Funcionais](https://tar-stay-ec9.notion.site/Levantamento-de-Requisitos-Funcionais-PIM-III-1c25872c0a9281399f40f5e513e43048?pvs=4)  
-- [Diagrama de Casos de Uso](https://tar-stay-ec9.notion.site/Diagrama-de-Casos-de-Uso-1c25872c0a9281978842fd6060bd9144?pvs=4)
-- [Product Backlog](https://tar-stay-ec9.notion.site/Product-Backlog-1c25872c0a9281afa45cee6072936a2c?pvs=4)  
-- [Ciclo de Vida de um Chamado](https://tar-stay-ec9.notion.site/Ciclo-de-Vida-de-um-Chamado-1c25872c0a9281bcb642ee620d554c95?pvs=4)
