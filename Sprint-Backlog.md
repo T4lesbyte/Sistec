@@ -1,4 +1,4 @@
-# Sprint Planning
+# Sprint Backlog
 
 ##  Arquitetura e Planejamento
 
