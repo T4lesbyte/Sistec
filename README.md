@@ -72,5 +72,5 @@ Otimizar o processo de planejamento das sprints, garantindo alinhamento técnico
 
 ## 🚀 Gestão Ágil
 - [Product Backlog](https://tar-stay-ec9.notion.site/Product-Backlog-1c25872c0a9281afa45cee6072936a2c?pvs=4)
-- [Sprint Planning](https://github.com/T4lesbyte/Sistec/blob/main/Sprint-Planning.md)
+- [Sprint Planning](https://github.com/T4lesbyte/Sistec/blob/main/Sprint-Backlog.md)
 
