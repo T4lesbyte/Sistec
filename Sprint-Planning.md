@@ -20,7 +20,8 @@
 
 **Tarefas:**
 - Modelagem de Banco de Dados: Modelo conceitual, lógico e fisico.
-- Arquitetura da informação e fluxos de usuário  
+- Arquitetura da informação e fluxos de usuário
+- Desenvolver planilha de testes do sistemas
 
 ---
 
@@ -39,7 +40,9 @@
 **Objetivo:** Criar um protótipo visual refinado com foco na experiência final do usuário.
 
 **Tarefas:**
-- Protótipo de alta fidelidade  
+- Protótipo de alta fidelidade
+- PoC (Proof of Concept)
+- Criar manual de uso
 
 ---
 
