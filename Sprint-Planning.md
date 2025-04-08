@@ -10,7 +10,7 @@
 - Diagrama de Caso de Uso  
 - Diagrama de Classe  
 - Diagrama de Sequência  
-- Diagrama de Implementação  
+- Diagrama de Implantação 
 
 ---
 
@@ -19,7 +19,7 @@
 **Objetivo:** Estruturar o banco de dados e mapear o fluxo de navegação do usuário no sistema.
 
 **Tarefas:**
-- Modelagem de Banco de Dados  
+- Modelagem de Banco de Dados: Modelo conceitual, lógico e fisico.
 - Arquitetura da informação e fluxos de usuário  
 
 ---
