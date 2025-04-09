@@ -43,9 +43,6 @@ A solução proposta é voltada para empresas que necessitam de um sistema **con
 # O Planejamento
 ## Sprint Planning 
 
-### Objetivo
-Otimizar o processo de planejamento das sprints, garantindo alinhamento técnico e eficiência na execução.
-
 ### Sprint Planning - Arquitetura e Planejamento
 **Duração:** 03/04/2025 - 30/05/2025
 
@@ -57,11 +54,6 @@ Otimizar o processo de planejamento das sprints, garantindo alinhamento técnico
 - Arquitetura da informação e fluxos de usuário
 - Wireframes e prototipos de média fidelidade
 - Prototipo de alta fidelidade
-
-**Benefícios:**
-- Alinhamento prévio sobre soluções técnicas
-- Identificação antecipada de desafios arquiteturais
-- Melhor estimativa de esforço para o time de desenvolvimento
 
 # 🔍 Navegação
 
