@@ -20,7 +20,7 @@
 
 **Tarefas:**
 - Modelagem de Banco de Dados: Modelo conceitual, lógico e fisico.
-- Arquitetura da informação e fluxos de usuário
+- Arquitetura da informação
 - Desenvolver planilha de testes do sistemas
 
 ---
@@ -30,7 +30,6 @@
 **Objetivo:** Representar visualmente a estrutura e navegação do sistema com protótipos funcionais iniciais.
 
 **Tarefas:**
-- Wireframes  
 - Protótipos de média fidelidade  
 
 ---
