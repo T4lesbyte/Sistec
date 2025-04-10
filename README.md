@@ -64,5 +64,5 @@ A solução proposta é voltada para empresas que necessitam de um sistema **con
 
 ## 🚀 Gestão Ágil
 - [Product Backlog](https://tar-stay-ec9.notion.site/Product-Backlog-1c25872c0a9281afa45cee6072936a2c?pvs=4)
-- [Sprint Planning](https://github.com/T4lesbyte/Sistec/blob/main/Sprint-Backlog.md)
+- [Sprint Backlog](https://github.com/T4lesbyte/Sistec/blob/main/Sprint-Backlog.md)
 
