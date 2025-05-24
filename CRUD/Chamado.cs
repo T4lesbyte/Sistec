@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProofOfConcept
 {
-    public class Chamado
+    // Definição da classe Chamado
+    internal class Chamado
     {
         public int Id { get; set; }
         public int IdCategoria { get; set; }
@@ -17,3 +18,4 @@ namespace ProofOfConcept
         public DateTime DataAbertura { get; set; }
     }
 }
+
