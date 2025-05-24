@@ -1,4 +1,4 @@
-﻿namespace ProofOfConcept
+namespace ProofOfConcept
 {
     internal class Program
     {
@@ -7,6 +7,11 @@
 
         static void Main(string[] args)
         {
+            // Resto do código permanece inalterado
+
+
+
+
             int opcao;
             do
             {
@@ -127,6 +132,8 @@
                 Console.WriteLine("\nChamado não encontrado.");
             }
         }
+
     }
 }
+
 
