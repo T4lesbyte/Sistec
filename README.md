@@ -10,6 +10,7 @@ Thales Cotrim
 - Samuel Parra  
 - Jaqueline Barbosa  
 - Lucas Alves
+- Kauã Bonafé
 
 # O Projeto
 ## Sistema Inteligente de Gestão de Chamados de Suporte
